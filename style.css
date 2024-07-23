@@ -1,0 +1,191 @@
+* { 
+    padding: 0; 
+    margin: 0;  
+    /*widht=100%*/
+    box-sizing: border-box;   
+
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+
+}  
+
+header {  
+    background-color: red;  
+    color: #fff;  
+    text-align: center;  
+    padding: 10px 0;  
+    display: flex;  
+    align-items: center;   
+    justify-content: space-between;   
+    padding: 10px 20px;   
+}  
+
+.search-bar {  
+    margin-right: 20px;  
+    padding: 8px;  
+    border: none;  
+    border-radius: 5px;   
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 20px;  
+}  
+
+main {  
+    padding: 20px;  
+}  
+
+.main-logo {  
+    display: block;  
+    margin: 20px auto;   
+}  
+
+.products {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+}  
+
+.product {  
+    flex: 1 1 calc(25% - 40px);   
+    margin: 10px;  
+    padding: 15px;   
+    border: 1px solid #ccc;  
+    text-align: center;  
+    border-radius: 10px;   
+    transition: transform 0.3s;   
+}  
+
+.product:hover {  
+    transform: scale(1.05);  
+}  
+
+.product img {  
+    width: 200px;  
+    height: auto;  
+    border-radius: 10px;   
+}  
+
+.product h2, .product p {  
+    margin: 10px 0;  
+}  
+
+.buy-btn {  
+    background-color: #007bff;  
+    color: #fff;  
+    padding: 10px 15px;   
+    border: none;  
+    cursor: pointer;  
+    border-radius: 5px;  
+}  
+
+footer {  
+    background-color: #333;  
+    color: #fff;  
+    text-align: center;  
+    padding: 10px 0;  
+}  
+
+.taraji {  
+    color: yellow;  
+    background-color: red;  
+    padding: 10px 0;  
+}  
+
+.image-est {  
+    padding: 0;  
+    margin: 0; 
+}  
+
+@media (max-width: 768px) {  
+    .product {  
+        flex: 1 1 calc(100% - 20px);  
+    }  
+}
+.taraji{
+    color: yellow;
+    background-color: red;
+}
+
+.magazin{
+    color: yellow;
+    background-color: red;
+}
+
+.born {
+
+        position: absolute;
+        top: 90px; 
+        right: 15px; 
+        width: -50px; 
+        height: 100px; 
+
+    }
+
+.store{
+    display: block; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+  }
+
+.main-logo1 {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
+}
+
+.cb {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart {  
+    margin-top: 20px;  
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 10px;  
+    text-align: left;  
+}  
+
+.cart h2 {  
+    color: #007bff; 
+}  
+
+#checkout-btn {  
+    margin-top: 10px;  
+} 
+
+#search{
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+
+
+audio {
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  
+  
+  a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold
+  }
+  a:hover{
+    color: yellow;
+  }

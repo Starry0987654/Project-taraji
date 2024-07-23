@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <link rel="stylesheet" href="style.css">  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script src="./java.js" defer></script>  
+    <title>Taraji Store</title>  
+</head>  
+<body>  
+    <header>  
+        <div class="image-est">  
+            <img src="./logo/3.png" alt="Logo Taraji Store">  
+        </div>  
+        <h1 class="taraji">TARAJI STORE</h1>  
+        <input type="text" class="search-bar" placeholder="Rechercher...">  
+        <nav>  
+            <ul>  
+                <li><a href="./index.html">Accueil</a></li>  
+                <li><a href="./produit.html">Produits</a></li>  
+                <li><a href="./contact.html">Contact</a></li>  
+                <li><a href="./boutique.html">Nos Boutiques</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+    <main>  
+        <img src="./maillots/taraji.png" alt="maillots Taraji" class="main-logo">  
+        <div class="products"> 
+            <div class="product">  
+                <img src="./volleyball/principale.png" alt="Produit 1: Maillot Domicile">  
+                <h2>Maillot Domicile</h2>  
+                <p>Maillot principal</p>  
+                <p>Prix: 90.00 D</p>  
+                <a href="#" class="buy-btn" data-name="Maillot Domicile" data-price="90.00">Acheter</a>  
+            </div>  
+            <div class="product">  
+                <img src="./volleyball/principale 2.png" alt="Produit 2: Maillot Exterieur">  
+                <h2>Maillot Exterieur</h2>  
+                <p>Maillot exterieur principal</p>  
+                <p>Prix: 85.00 D</p>  
+                <a href="#" class="buy-btn" data-name="Maillot Exterieur" data-price="85.00">Acheter</a>  
+            </div>  
+            <div class="product">  
+                <img src="./volleyball/Entrinement.png" alt="Produit 3: Exterieur 2">  
+                <h2>Entrainement</h2>  
+                <p>Maillot pour l'entrainement</p>  
+                <p>Prix: 69.90 D</p>  
+                <a href="#" class="buy-btn" data-name="Maillot entrainement" data-price="69.90">Acheter</a>  
+            </div> 
+             
+            <div class="product">  
+                <img src="./volleyball/entrainement 2.png" alt="Produit 4: Maillot Echauffement">  
+                <h2>Entrainement 2</h2>  
+                <p>Maillot pour l'entrainement 2</p>  
+                <p>Prix: 45.00 D</p>  
+                <a href="#" class="buy-btn" data-name="Maillot entrainement 2" data-price="45.00">Acheter</a>  
+            </div>  
+            
+            </div>
+
+            <div class="cart" id="cart">  
+                <h2>Votre Panier</h2>  
+                <div id="cart-items"></div> 
+                <button id="checkout-btn">Passer à la caisse</button>  
+            </div>  
+
+
+            <h2>Votre Panier</h2>  
+            <div id="cart-items"></div>  
+            <button id="reset-cart">Réinitialiser le panier</button>  
+            <button id="checkout-btn">Passer à la caisse</button>  
+
+        
+        </div>  
+    </main>  
+    
+</body>  
+</html> 
